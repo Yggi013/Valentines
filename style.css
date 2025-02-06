@@ -16,6 +16,11 @@ body {
 }
 
 #image-container {
+    max-width: 100%; /* Ensure images don't overflow */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove inline spacing issues */
+    margin: 0 auto; /* Center images */
+    
     /* This container will hold the images */
 }
 
